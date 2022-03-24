@@ -1,0 +1,30 @@
+{
+    "name": "duckzland/nova-menu-language-menu-switcher",
+    "description": "Nova Menu Language Switcher",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "optimistdigital/nova-menu-builder": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Duckzland\\NovaMenuLanguageSwitcher\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Duckzland\\NovaMenuLanguageSwitcher\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,80 @@
+.language-menu-switcher-field {
+
+    .form-active {
+        align-items: center;
+        gap: 20px;
+
+        .active-lang {
+            align-items: center;
+
+            .flag {
+                margin: 0 0 0 -16px;
+            }
+
+            .text {
+                margin-left: -5px;
+            }
+        }
+    }
+
+    .form-actions {
+        --vs-dropdown-option-padding: 0px;
+        
+        .v-select {
+            min-width: 260px;
+            max-width: 400px;
+            width: 100%;
+
+            .vs__dropdown-toggle {
+                cursor: pointer;
+            }
+
+            a {
+                margin: 0;
+                display: block;
+                padding-left: 1.5rem;
+                padding-right: .75rem;
+                padding-top: .5rem;
+                padding-bottom: .5rem;
+                text-decoration: none;
+        
+                &:hover {
+                    color: var(--white);
+                    background-color: var(--primary);
+                }
+            }
+        }
+    }
+
+    .options-lang {
+        display: flex;
+        align-items: center;
+
+        .flag {
+            margin: 0 0 0 -20px;
+        }
+
+        .text {
+            margin-left: -2px;
+        }
+    }
+}
+
+.language-menu-switcher-tooltip {
+    padding: 0 !important;
+
+    a {
+        margin: 0;
+        display: block;
+        padding-left: 1.5rem;
+        padding-right: .75rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        text-decoration: none;
+
+        &:hover {
+            color: var(--white);
+            background-color: var(--primary);
+        }
+    }
+}
