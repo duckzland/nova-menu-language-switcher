@@ -7,7 +7,6 @@ import FormField from './components/FormField.vue';
 import Params from './params.js';
 import 'vue-select/dist/vue-select.css';
 
-console.log('FIRINNNGGG')
 
 Nova.booting((Vue, router) => {
 
